@@ -1,0 +1,27 @@
+{
+  "name": "mt103plareader",
+  "version": "1.0.0",
+  "description": "MT103 PLA file format parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturKonieczny/mt103plareader.git"
+  },
+  "keywords": [
+    "mt103",
+    "pla",
+    "bank",
+    "transfer",
+    "file",
+    "format"
+  ],
+  "author": "Artur Konieczny <thetofiq@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturKonieczny/mt103plareader/issues"
+  },
+  "homepage": "https://github.com/ArturKonieczny/mt103plareader#readme"
+}
