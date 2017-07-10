@@ -1,4 +1,5 @@
 const { specs } = require('./plaspecs.json');
+const TransferObj = require('./TransferObj.js');
 
 function processTransferLines(transferLines) {
   const transfer = {};
@@ -24,5 +25,5 @@ module.exports = function parse(rawTransfer) {
   const transferLines = rawTransfer.split(/\r\n|\n/);
   const preProcessedTransfer = processTransferLines(transferLines);
 
-  return preProcessedTransfer;
+  return new TransferObj(preProcessedTransfer);
 };
