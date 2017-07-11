@@ -52,7 +52,7 @@ or simply download and "require" this repository.
 ## Usage
 
 ```js
-const mt103plareader = require('./index');
+const mt103plareader = require('mt103plareader');
 
 const transferObjectArray = mt103plareader.parse(plaFile);
 ```
