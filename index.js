@@ -1,5 +1,5 @@
 const plaParser = require('./src/plaParser');
 
-exports.parse = function parse(rawPlaFile) {
+module.exports = function parse(rawPlaFile) {
   return plaParser(rawPlaFile);
 };

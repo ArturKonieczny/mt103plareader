@@ -1,6 +1,6 @@
 const mt103plareader = require('./index');
 
-const testResult = mt103plareader.parse(`:01:43216
+const testResult = mt103plareader(`:01:43216
 :02:945,34
 :03:3
 :04:24900005
