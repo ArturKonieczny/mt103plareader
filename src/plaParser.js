@@ -11,7 +11,6 @@ function splitPlaFile(rawPlaFile) {
 
 module.exports = function plaParser(rawPlaFile) {
   const { rawTransfers } = splitPlaFile(rawPlaFile);
-  const transfers = rawTransfers.map(transferParser);
 
-  return transfers;
+  return rawTransfers.map(transferParser);
 };

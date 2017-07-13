@@ -23,7 +23,6 @@ function processTransferLines(transferLines) {
 
 module.exports = function parse(rawTransfer) {
   const transferLines = rawTransfer.split(/\r\n|\n/);
-  const preProcessedTransfer = processTransferLines(transferLines);
 
-  return new TransferObj(preProcessedTransfer);
+  return new TransferObj(processTransferLines(transferLines));
 };
