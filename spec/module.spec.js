@@ -1,7 +1,5 @@
-const parse = require('../index');
-/* eslint-env mocha */
-/* eslint max-nested-callbacks: [ 'error', 5 ] */
 const { expect } = require('chai');
+const parse = require('../index');
 
 describe('module exports', () => {
   it('should be a function', () => {

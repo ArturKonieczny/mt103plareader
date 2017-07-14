@@ -1,3 +1,4 @@
 module.exports = [
-  require('./test')
+  require('./1transfer'),
+  require('./3transfers')
 ];
