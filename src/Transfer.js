@@ -43,7 +43,7 @@ module.exports = class Transfer {
   getFieldString(fieldLineIndex, fieldValue, fieldLineCount) {
     const fieldLines = [fieldValue];
 
-    for (let index = 0; index < fieldLineCount; index++) {
+    for (let index = 1; index < fieldLineCount; index++) {
       fieldLines.push(this.transferLines[fieldLineIndex + index]);
     }
 
