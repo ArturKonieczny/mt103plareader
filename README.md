@@ -48,7 +48,6 @@ transfer {
 
 ## Installation
 
-Coming soon:
 ```bash
 npm install mt103plareader
 ```
