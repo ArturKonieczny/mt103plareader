@@ -87,36 +87,32 @@ exports.output = [{
     currency: 'EUR',
     ammount: '234,34'
   },
-  senderName:
-     {
-       senderName1: 'sender name',
-       senderName2: '',
-       senderAddress1: 'sender address',
-       senderAddress2: 'sender address2'
-     },
-  senderData:
-     {
-       senderAccount: '17249000050000460086241234',
-       senderFeeAccount: '17249000050000460086241234',
-       curAmmount: 'EUR234,34',
-       transferCode: 'F50            PL PL'
-     },
+  senderName: {
+    senderName1: 'sender name',
+    senderName2: '',
+    senderAddress1: 'sender address',
+    senderAddress2: 'sender address2'
+  },
+  senderData: {
+    senderAccount: '17249000050000460086241234',
+    senderFeeAccount: '17249000050000460086241234',
+    curAmmount: 'EUR234,34',
+    transferCode: 'F50            PL PL'
+  },
   swiftCode: 'ALBPPLPW',
-  benInfo:
-     {
-       benAccount: '15249000050000400036691234',
-       benName1: 'ben Name',
-       benName2: '',
-       benAddress1: 'ben address',
-       benAddress2: 'ben address2'
-     },
-  transferDesc:
-     {
-       transferDesc1: 'title1',
-       transferDesc2: ' title2',
-       transferDesc3: ' title3',
-       transferDesc4: ' title4'
-     },
+  benInfo: {
+    benAccount: '15249000050000400036691234',
+    benName1: 'ben Name',
+    benName2: '',
+    benAddress1: 'ben address',
+    benAddress2: 'ben address2'
+  },
+  transferDesc: {
+    transferDesc1: 'title1',
+    transferDesc2: ' title2',
+    transferDesc3: ' title3',
+    transferDesc4: ' title4'
+  },
   costDetails: 'BN1',
   transferInfo: ' 00 00 00 00'
 }, {
@@ -126,36 +122,32 @@ exports.output = [{
     currency: 'EUR',
     ammount: '100,00'
   },
-  senderName:
-     {
-       senderName1: 'sender name',
-       senderName2: '',
-       senderAddress1: 'sender address',
-       senderAddress2: 'sender address2'
-     },
-  senderData:
-     {
-       senderAccount: '17249000050000460086241234',
-       senderFeeAccount: '17249000050000460086241234',
-       curAmmount: 'EUR100,00',
-       transferCode: 'F50            PL PL'
-     },
+  senderName: {
+    senderName1: 'sender name',
+    senderName2: '',
+    senderAddress1: 'sender address',
+    senderAddress2: 'sender address2'
+  },
+  senderData: {
+    senderAccount: '17249000050000460086241234',
+    senderFeeAccount: '17249000050000460086241234',
+    curAmmount: 'EUR100,00',
+    transferCode: 'F50            PL PL'
+  },
   swiftCode: 'ALBPPLPW',
-  benInfo:
-     {
-       benAccount: '57249010440000420059981234',
-       benName1: 'ben name2',
-       benName2: '',
-       benAddress1: 'ben address12',
-       benAddress2: 'ben address22'
-     },
-  transferDesc:
-     {
-       transferDesc1: '2title1',
-       transferDesc2: ' 2title2',
-       transferDesc3: ' 2title3',
-       transferDesc4: ' 2title4'
-     },
+  benInfo: {
+    benAccount: '57249010440000420059981234',
+    benName1: 'ben name2',
+    benName2: '',
+    benAddress1: 'ben address12',
+    benAddress2: 'ben address22'
+  },
+  transferDesc: {
+    transferDesc1: '2title1',
+    transferDesc2: ' 2title2',
+    transferDesc3: ' 2title3',
+    transferDesc4: ' 2title4'
+  },
   costDetails: 'BN1',
   transferInfo: ' 00 00 00 00'
 }, {
@@ -165,36 +157,32 @@ exports.output = [{
     currency: 'EUR',
     ammount: '611,00'
   },
-  senderName:
-     {
-       senderName1: 'sender name',
-       senderName2: '',
-       senderAddress1: 'sender address',
-       senderAddress2: 'sender address2'
-     },
-  senderData:
-     {
-       senderAccount: '17249000050000460086241234',
-       senderFeeAccount: '17249000050000460086241234',
-       curAmmount: 'EUR611,00',
-       transferCode: 'F50            PL PL'
-     },
+  senderName: {
+    senderName1: 'sender name',
+    senderName2: '',
+    senderAddress1: 'sender address',
+    senderAddress2: 'sender address2'
+  },
+  senderData: {
+    senderAccount: '17249000050000460086241234',
+    senderFeeAccount: '17249000050000460086241234',
+    curAmmount: 'EUR611,00',
+    transferCode: 'F50            PL PL'
+  },
   swiftCode: 'ALBPPLPW',
-  benInfo:
-     {
-       benAccount: '75249010440000420059981234',
-       benName1: 'ben name 3',
-       benName2: '',
-       benAddress1: 'ben address3',
-       benAddress2: 'ben address23'
-     },
-  transferDesc:
-     {
-       transferDesc1: '3title1',
-       transferDesc2: ' 3title2',
-       transferDesc3: ' 3title3',
-       transferDesc4: ' 3title4'
-     },
+  benInfo: {
+    benAccount: '75249010440000420059981234',
+    benName1: 'ben name 3',
+    benName2: '',
+    benAddress1: 'ben address3',
+    benAddress2: 'ben address23'
+  },
+  transferDesc: {
+    transferDesc1: '3title1',
+    transferDesc2: ' 3title2',
+    transferDesc3: ' 3title3',
+    transferDesc4: ' 3title4'
+  },
   costDetails: 'BN1',
   transferInfo: ' 00 00 00 00'
 }];
