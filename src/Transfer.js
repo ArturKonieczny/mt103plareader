@@ -1,5 +1,5 @@
 const fieldSplitters = require('./fieldSplitters');
-const { specs } = require('./plaspecs.json');
+const specs = require('./plaspecs.json');
 
 module.exports = class Transfer {
   /**
