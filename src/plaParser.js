@@ -1,4 +1,4 @@
-const Transfer = require('./Transfer.js');
+const transferParser = require('./transferParser');
 
 /**
  * Splits the PLA file into redundant prefix and array of raw transfer strings.
@@ -23,7 +23,5 @@ function splitPlaFile(rawPlaFile) {
 module.exports = function plaParser(rawPlaFile) {
   const { rawTransfers } = splitPlaFile(rawPlaFile);
 
-  const transfers = rawTransfers.map((rawTransfer) => new Transfer(rawTransfer));
-
-  return transfers.map((transfer) => transfer.toJSON());
+  return rawTransfers.map(transferParser);
 };
