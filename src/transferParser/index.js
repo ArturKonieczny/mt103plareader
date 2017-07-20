@@ -1,5 +1,5 @@
 const getFieldString = require('./getFieldString');
-const setField = require('./setField');
+const splitField = require('./splitField');
 const specs = require('./plaspecs.json');
 
 /**
@@ -21,6 +21,8 @@ module.exports = function transferParser(rawTransfer) {
     const { fieldName, fieldLength } = plaField;
     const fieldString = getFieldString(fieldLineIndex, fieldValue, fieldLength, transferLines);
 
-    return setField(transfer, fieldName, fieldString);
+    transfer[fieldName] = splitField(fieldName, fieldString);
+
+    return transfer;
   }, {});
 };
