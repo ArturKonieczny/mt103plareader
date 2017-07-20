@@ -7,7 +7,7 @@ const specs = require('./plaspecs.json');
  * @param  {String} rawTransfer Single transfer from PLA format file.
  * @return {Object}             Transfer Object, see README.md for details.
  */
-module.exports = function transferParser(rawTransfer) {
+module.exports = function parseTransfer(rawTransfer) {
   const transferLines = rawTransfer.split(/\r\n|\n/);
 
   return transferLines.reduce((transfer, transferLine, fieldLineIndex) => {

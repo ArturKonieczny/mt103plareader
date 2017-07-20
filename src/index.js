@@ -1,4 +1,4 @@
-const transferParser = require('./transferParser');
+const transferParser = require('./parseTransfer');
 
 /**
  * Parses a MT103 PLA format file into an Array of js Object.
@@ -6,7 +6,7 @@ const transferParser = require('./transferParser');
  * @param  {String} rawPlaFile Raw MT103 PLA format file content.
  * @return {Array}            Array containing transfer Objects.
  */
-module.exports = function plaParser(rawPlaFile) {
+module.exports = function parsePla(rawPlaFile) {
   const prefixEnd = rawPlaFile.indexOf('{');
   const rawTransfers = rawPlaFile.substring(prefixEnd).split('$');
 

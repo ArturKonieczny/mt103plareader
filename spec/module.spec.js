@@ -11,6 +11,6 @@ describe('module exports', () => {
   });
 
   it('should be named parse', () => {
-    expect(parse.name).to.equal('plaParser');
+    expect(parse.name).to.equal('parsePla');
   });
 });
