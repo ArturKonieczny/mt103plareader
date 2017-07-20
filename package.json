@@ -1,6 +1,6 @@
 {
   "name": "mt103plareader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "MT103 PLA file format parser",
   "main": "index.js",
   "scripts": {
