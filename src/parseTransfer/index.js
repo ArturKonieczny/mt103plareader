@@ -1,6 +1,6 @@
 const getFieldString = require('./getFieldString');
 const parseField = require('./parseField');
-const specs = require('./plaspecs.json');
+const specs = require('./plaspecs.js');
 
 /**
  * Converts single transfer string from PLA format file into transfer Object
